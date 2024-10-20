@@ -1,0 +1,50 @@
+$mainDarkColor: #322d29;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.row .col-2,
+.row .col-3,
+.row .col-4,
+.row .col-5,
+.row .col-6{
+    padding: 0;
+}
+
+
+.gContainer{
+    width: 65%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-align{
+    display: flex;
+    align-items: center;
+}
+
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-between-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
